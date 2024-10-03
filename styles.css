@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+
+body{
+    background-image:url(backgroundhome.png);
+    background-position: 0% 20%;
+    background-repeat: no-repeat;
+}
+
+header{
+  background-color: rgba(2, 124, 39, 0.836);
+}
+
+.logotrabalho{
+  height: 200px;
+  position: absolute;
+  left: 200px;
+}
+
+.caixa {
+  height: 200px;
+  border: 10px solid rgb(7, 87, 7)
+}
+
+.cabecalho {
+  position: absolute;
+  top: 80px;
+  right: 600px;
+}
+
+li {
+  list-style-type: none;
+}
+
+nav li {
+  display: inline;
+  margin: 0 0 0 150px;
+
+}
+
+nav a {
+  text-transform: uppercase;
+  color: rgb(0, 0, 0);
+  font-weight:bolder;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.textohome{
+  background-color: rgba(4, 90, 8, 0.76);
+  height: 200px;
+  position: absolute;
+  top: 40%;
+  right: 50%;
+  padding-top: 250px;
+  padding-left: 300px;
+}
+
+.tituloprincipal{
+  color: #b6eca9be;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: "Josefin Sans", sans-serif;
+  position: absolute;
+  bottom: 70%;
+  left: 30px;
+}
+
+.textoprincipal{
+  color: rgb(0, 0, 0);
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 34px;
+  font-weight: 900;
+  position:relative;
+  right: 200px;
+  bottom: 60px;
+}
+
+.listadicas{
+  display: flex;
+  flex-direction:column;
+  flex-wrap: wrap;
+  padding-left: 100px;
+  padding-right: 60%;
+  margin-top: 50px;
+  gap: 30px;
+}
+
+.caixadicas {
+  background-color: rgba(8, 133, 64, 0.781);
+  border: 6px solid black;
+  padding: 20px; 
+  display: flex;
+}
+
+.textodicas {
+  font-size: 25px;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight:bolder;
+}
+
+h2 {
+  font-family: "Permanent Marker", cursive;
+  font-size: 35px;
+  font-weight: bold;
+  padding-bottom: 40px;
+}
+
+.imagemdicas {
+  height: 200px;
+}
+
+.caixasformulario{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  margin: 3% 35% 3% 35%;
+  padding: 200px;
+  gap: 100px;
+  background-color: #1e7513;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.quizcorpo {
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+.quiz-container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  background-color: #136103e7; 
+  border-radius: 8px; 
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
+}
+
+h1 {
+  text-align: center; 
+  color: #c4f3ee; 
+}
+
+.question {
+  margin-bottom: 20px;
+}
+
+input[type="radio"] {
+  margin-right: 10px;
+}
+
+button {
+  display: block; 
+  width: 100%;
+  padding: 10px; 
+  background-color: #12a594; 
+  color: white; 
+  border: none; 
+  border-radius: 4px; 
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #004d40; 
+}
+
+.result {
+  margin-top: 20px; 
+  text-align: center; 
+  font-size: 18px; 
+  color: #50cabc; 
+}
